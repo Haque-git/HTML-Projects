@@ -60,7 +60,6 @@ header {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  
 }
 p {
   margin-left: 10px;
@@ -98,4 +97,8 @@ p {
   width: 22%;
   box-shadow: 0 0 10px rgba(26, 26, 26, 0.3) inset;
   border-radius: 10px;
+}
+.author {
+  text-align: right;
+  padding: 20px;
 }
