@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'poppins';
+  font-family: "Ysabeau Office";
 }
 body {
   background-color: rgb(31, 31, 31);
@@ -17,7 +17,7 @@ body {
   display: flex;
   height: 300px;
   width: 500px;
-  background-color: rgba(44, 44, 44, 0.705);
+  background-color: rgba(44, 44, 44, 1);
   position: absolute;
   top: 20px;
   left: 20px;
@@ -59,14 +59,12 @@ p {
   margin-left: 10px;
   margin-top: 10px;
   color: rgb(201, 240, 230);
-  letter-spacing: .8px;
-  word-spacing: 1px;
   font-size: 14px;
   text-align: justify;
   padding: 10px;
 }
 .bar {
-  background-color: rgba(20, 20, 20, 0.534);
+  background-color: rgba(20, 20, 20, .5);
   height: 200px;
   width: 3px;
   margin-top: 30px;
@@ -74,11 +72,11 @@ p {
 }
 .content-left {
   width: 70%;
-  background-color: rgb(36, 36, 36);
+  background-color: rgba(36, 36, 36, 1);
   margin: 10px;
   height: 240px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(26, 26, 26, 0.3);
+  box-shadow: 0 0 10px rgba(26, 26, 26, 0.3) inset;
 
 }
 .about {
@@ -89,10 +87,10 @@ p {
   font-size: 13px;
   text-align: center;
   padding: 20px;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36, 1);
   color: rgb(196, 196, 196);
   margin: 10px;
   width: 22%;
-  box-shadow: 0 0 10px rgba(26, 26, 26, 0.3);
+  box-shadow: 0 0 10px rgba(26, 26, 26, 0.3) inset;
   border-radius: 10px;
 }
