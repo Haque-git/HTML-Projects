@@ -4,11 +4,9 @@
   font-family: "Ysabeau Office";
 }
 body {
-  background-color: rgb(31, 31, 31);
-}
-.background {
-  height: 100vh;
-  width: 100vw;
+  background-image: url(abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg);
+  background-repeat: repeat;
+  background-size: 500px;
 }
 .bg-image {
   width: inherit;
@@ -17,16 +15,23 @@ body {
   display: flex;
   height: 300px;
   width: 500px;
-  background-color: rgba(44, 44, 44, 1);
+  background-color: rgb(22, 22, 22);
   position: absolute;
   top: 20px;
   left: 20px;
   box-shadow: 0 0 5px rgba(37, 37, 37, 0.089);
   border-radius: 10px;
+  align-items: center;
 
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: inherit;
+}
 header {
-  font-size: 22px;
+  font-size: 25px;
   width: 500px;
   background-color: rgba(72, 255, 209, 0.644);
   color: rgb(255, 255, 255);
@@ -53,6 +58,8 @@ header {
 }
 .content {
   display: flex;
+  flex-grow: 1;
+  align-items: center;
   
 }
 p {
@@ -60,14 +67,12 @@ p {
   margin-top: 10px;
   color: rgb(201, 240, 230);
   font-size: 14px;
-  text-align: justify;
   padding: 10px;
 }
 .bar {
   background-color: rgba(20, 20, 20, .5);
   height: 200px;
-  width: 3px;
-  margin-top: 30px;
+  width: 1px;
 
 }
 .content-left {
