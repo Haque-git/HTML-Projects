@@ -1,0 +1,97 @@
+.profile-card {
+  height: 550px;
+  width: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  border-radius: 1rem;
+  position: fixed;
+  top: 3%;
+  left: 25px;
+  box-shadow: 0 0 10px rgba(22, 22, 22, 0.199);
+}
+.name-cntr {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 85px 30px;
+}
+.name {
+  display: flex;
+  font-size: 27px;
+  font-weight: 700;
+  color: rgb(29, 197, 80);
+  justify-content: center;
+  align-items: flex-end;
+}
+.profession {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 10px;
+  text-align: end;
+  font-weight: 100;
+}
+.dp-cntr {
+  position: absolute;
+  top: 130px;
+  height: 35%;
+  width: 80%;
+  left: 10%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.dp {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+.button-cntr {
+  width: 100%;
+  position: absolute;
+  top: 340px;
+  display: flex;
+  justify-content: center;
+
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(29, 197, 80);
+  width: 60%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  border-width: 0;
+  border-radius: 2rem;
+  border: 0px solid rgba(128, 128, 128, 0.288);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+.handles {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  box-shadow: 0 0 10px rgba(22, 22, 22, 0.4);
+  transition: .3s;
+}
+.icons:hover {
+  border: 1px solid rgb(29, 197, 80);
+}
+.icons img {
+  height: 50%;
+}
