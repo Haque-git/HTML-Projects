@@ -1,12 +1,10 @@
 .right-section {
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   left: 20px;
   height: 100%;
 }
 .profile-card {
+  top: 70px;
   height: 620px;
   width: 300px;
   border: 1px solid rgba(128, 128, 128, 0.288);
