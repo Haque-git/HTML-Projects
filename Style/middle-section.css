@@ -1,0 +1,82 @@
+.middle-section {
+  color: white;
+  padding-top: 70px;
+}
+.middle-section span {
+  font-size: 13px;
+  padding: 5px 8px;
+  color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+.middle-section .material-symbols-outlined:hover {
+  color: white;
+  filter: none;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+.intro {
+  padding-bottom: 70px;
+}
+.about {
+  padding-bottom: 70px;
+}
+.tip {
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  border-radius: 50px;
+  width: max-content;
+  padding: 2px 15px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.top {
+  padding-top: 35px;
+  font-size: 30px;
+  line-height: 40px;
+}
+#top {
+  font-size: 50px;
+  line-height: 60px;
+}
+.top span {
+  color: rgb(73, 216, 116);
+  font-size: inherit;
+  line-height: inherit;
+}
+.middle {
+  padding-top: 20px;
+  font-weight: 200;
+}
+.intro-end {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.xp {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px;
+}
+.xp div {
+  display: flex;
+  flex-direction: column;
+}
+.xp .second-span {
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+}
+.xp .first-span {
+  color: rgb(73, 216, 116);
+  line-height: 20px;
+  font-size: 60px;
+  font-weight: 400;
+}
