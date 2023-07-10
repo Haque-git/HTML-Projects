@@ -25,7 +25,7 @@
   padding-bottom: 70px;
 }
 .about {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 .tip {
   border: 1px solid rgba(128, 128, 128, 0.288);
@@ -79,4 +79,89 @@
   line-height: 20px;
   font-size: 60px;
   font-weight: 400;
+}
+
+.education {
+  font-size: 10px;
+  font-weight: 300;
+  z-index: 10;
+}
+.line {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  background-color: white;
+}
+.education div {
+  margin-top: 20px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+ul li {
+  position: relative;
+  font-size: 15px;
+  padding-left: 15px;
+  margin: 50px 15px 22px 15px;
+  z-index: 10;
+}
+li p {
+  font-size: 10px;
+}
+.education p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.first {
+  color: rgb(73, 216, 116);
+}
+.line {
+  margin-top: 10px;
+  height: 525px;
+  width: 1px;
+  background: rgba(56, 56, 56, 0.644);
+  z-index: 0;
+}
+.resume {
+  margin-bottom: 100px;
+}
+.ability-card {
+  height: 80px;
+  width: max(80%, 400px);
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  margin-top: 30px;
+  margin-right: 100px;
+  border-radius: 1rem;
+  padding: 30px;
+  position: relative;
+  transition: .3s;
+  transition-delay: .2s;
+  
+}
+.ability-card p {
+  font-size: 10px;
+  font-weight: 300;
+  padding: 7px 0;
+}
+.ability-card div {
+  font-size: 10px;
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+  transition: .3s;
+  
+}
+.ability-card div:hover {
+  color: rgb(73, 216, 116);
+  text-decoration-line: underline;
+}
+.ability-card header {
+  transition: .3s;
+
+}
+.ability-card:hover header {
+  color: rgb(73, 216, 116);
+}
+.ability-card:hover {
+  border: 1px solid rgba(73, 216, 116, 0.226);
 }
