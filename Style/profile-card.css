@@ -52,7 +52,7 @@
 .button-cntr {
   width: 100%;
   position: absolute;
-  bottom: 30px;
+  bottom: 200px;
   display: flex;
   justify-content: center;
 
@@ -70,7 +70,6 @@
   font-weight: 500;
   border-width: 0;
   border-radius: 2rem;
-  border-width: 0;
   cursor: pointer;
   transition: .3s;
 }
@@ -97,7 +96,7 @@
   position: absolute;
   height: 50px;
   width: 100%;
-  bottom: 130px;
+  bottom: 30px;
   display: flex;
   justify-content: center;
 }

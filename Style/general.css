@@ -8,3 +8,6 @@ body {
   padding-left: 350px;
   padding-right: 80px;
 }
+html {
+  scroll-behavior: smooth;
+}
