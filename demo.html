@@ -7,30 +7,19 @@
 </head>
 <body>
   <style>
-    body {
-      background-color: rgb(85, 85, 85);
-    }
-    .container {
-      position: relative;
-      width: 300px;
-      height: 200px;
-      border: 1px solid #000;
-    }
-  
-    .hole {
-      position: absolute;
-      top: 50px;
-      left: 100px;
-      width: 100px;
-      height: 100px;
-      background-color: #3a3a3a; /* Set the background color to match your page */
-      box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5) inset;
-      z-index: 1;
-    }
+    .irregular-line {
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, black 20%, transparent 20%),
+                    linear-gradient(to right, black 40%, transparent 40%),
+                    linear-gradient(to right, black 60%, transparent 60%),
+                    linear-gradient(to right, black 80%, transparent 80%);
+  background-position: 0 0, 0 0.2em, 0 0.4em, 0 0.6em;
+  background-size: 20% 1px, 40% 1px, 60% 1px, 80% 1px;
+  background-repeat: no-repeat;
+}
   </style>
-  
-  <div class="container">
-    <div class="hole"></div>
-  </div>
+
+  <div class="irregular-line"></div>
 </body>
 </html>
